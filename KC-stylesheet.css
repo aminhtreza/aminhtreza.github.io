@@ -17,7 +17,7 @@ P: Quicksand
 Links/Deco: Montserrat
 */
 h1, h2, h3, h4, h5 {
-    font-family: "Libre Baskerville", serif, sans-serif;
+    font-family: "Libre Baskerville", serif,  sans-serif;
     font-weight: normal;
 }
 h1 {
@@ -554,7 +554,7 @@ h5 {font-weight: bold; margin-bottom: 3px;}
     padding: 0 10%;
     margin: auto;
 }
-#layingpic {width:70%;}
+#layingpic {width:25%; height: 50%;}
 
 /* Adventure Section */
 #adventure {background-color: whitesmoke;}
