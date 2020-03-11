@@ -535,6 +535,9 @@ h5 {font-weight: bold; margin-bottom: 3px;}
     left: 50%;
 }
 
+
+/* Contact page */
+#contactback {background-image: url(Images/Contactme.JPG)}
 /* ############
    ABOUT PAGE 
 ############ */
@@ -554,7 +557,24 @@ h5 {font-weight: bold; margin-bottom: 3px;}
     padding: 0 10%;
     margin: auto;
 }
-#layingpic {width:25%; height: 50%;}
+
+#spirit2 {background-color:#800000;}
+#spirit2 .contents {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+#spirit2 .contents div {width: 100%; padding: 0.5em 2em;}
+#spirit2 h2 {color: #f3cb4f;}
+#spirit2 p {color: whitesmoke; line-height: 2em;}
+#portrait {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0 10%;
+    margin: auto;
+}
+
+#layingpic {width:25%; height: 25%;}
 
 /* Adventure Section */
 #adventure {background-color: whitesmoke;}
@@ -732,6 +752,15 @@ input:-webkit-autofill {border:1px solid; -webkit-box-shadow: 0 0 0 30px white i
         align-content: center;
     }
     #spirit .contents div {
+        width: 40%;
+        padding: 1em;
+    }
+    #spirit2 .contents {
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-content: center;
+    }
+    #spirit2 .contents div {
         width: 40%;
         padding: 1em;
     }
