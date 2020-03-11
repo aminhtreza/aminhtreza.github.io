@@ -413,7 +413,7 @@ footer a:hover {
    RESUME PAGE 
 ############ */
 #resumeback {
-    background-image: url(Images/guitar_lake.JPG);
+    background-image: url(Images/CircuitBack.jpg);
 }
 /* SECTION ID: resume */
 #resume {
@@ -463,7 +463,7 @@ h5 {font-weight: bold; margin-bottom: 3px;}
    PORTFOLIO PAGE 
 ############ */
 #portfolioback {
-    background-image: url(https://media1.tenor.com/images/b81c8e7c84d6dcfa5d23fa51c75d7a57/tenor.gif?itemid=11500074);
+    background-image: url(Images/portfolioBack.jpg);
 }
 /* These make the sections come into color when hovered over  */
 .gallerysec {
@@ -538,7 +538,7 @@ h5 {font-weight: bold; margin-bottom: 3px;}
 /* ############
    ABOUT PAGE 
 ############ */
-#aboutback {background-image: url(Images/kaweah.JPG);}
+#aboutback {background-image: url(Images/guitarlake.JPG);}
 #spirit {background-color:#071c30;}
 #spirit .contents {
     flex-flow: column wrap;
