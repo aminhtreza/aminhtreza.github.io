@@ -140,7 +140,7 @@ header a { /* Defines the stylings for all links in the header bar */
     align-items: strecth;
 }
 #icon-wrapper {
-    width: auto; 
+    width: auto;
     margin: 0.5em 5em;
     /* border: solid lightgray; */
     display: flex;
@@ -327,7 +327,7 @@ Footer Section
 ~~~~~~~~~~~ */
 footer {
     width: 100%;
-    background-color: #071c30;
+    background-color: #400f01;
 }
 footer .contents {
     flex-flow: column wrap;
@@ -542,7 +542,7 @@ h5 {font-weight: bold; margin-bottom: 3px;}
    ABOUT PAGE 
 ############ */
 #aboutback {background-image: url(Images/guitarlake.JPG);}
-#spirit {background-color:#071c30;}
+#spirit {background-color:#400f01;}
 #spirit .contents {
     flex-flow: column wrap;
     justify-content: center;
@@ -558,7 +558,7 @@ h5 {font-weight: bold; margin-bottom: 3px;}
     margin: auto;
 }
 
-#spirit2 {background-color:#800000;}
+#spirit2 {background-color:#393a3b;}
 #spirit2 .contents {
     flex-flow: column wrap;
     justify-content: center;
