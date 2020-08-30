@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Media Queries-->
         <meta name="description" content="Amin Hamidi Portfolio. See the projects I have worked on.">
-        <title>Amin Hamidi Portfolio</title>
+        <title>Amin Hamidi Projects</title>
         <link rel="stylesheet" type="text/css" href="KC-stylesheet.css">
         <link href="https://fonts.googleapis.com/css?family=Questrial|Libre+Baskerville|Montserrat|Overpass|Quicksand&display=swap" rel="stylesheet">
         <!--Favicon at the top of browser tab-->
@@ -22,7 +22,8 @@
                         <a href="index.html" class="active"><img id="mobile-icon" src="Images/Aminlogo.png"></a>
                         <div id="myLinks">
                         <a href="resume.html" class="button">Resume</a>
-                        <a href="portfolio.html" style="color: #ef5728;" class="button">Portfolio</a>
+                        <a href="portfolio.html" style="color: #ef5728;" class="button">Projects</a>
+                        <a href="myApps.html" class="button">My Apps</a>
                         <a href="about.html" class="button">About</a>
                         <a href="contact.html" class="button">Contact</a>
                         </div>
@@ -38,7 +39,8 @@
                             </div>
                             <div id="nav-div">
                                 <a href="resume.html" class="button">Resume</a>
-                                <a href="portfolio.html" style="color: #ef5728;" class="button">Portfolio</a>
+                                    <a href="portfolio.html" style="color: #ef5728;" class="button">Projects</a>
+                                <a href="myApps.html" class="button">My Apps</a>
                                 <a href="about.html" class="button">About</a>
                             </div>
                             <div id="contact-div">
@@ -57,11 +59,34 @@
         <!-- Beginning of Main Body content -->
         <main>
             
+        <section id="proj1" class="gallerysec rightgal">
+            <div class="row">
+                <div class="contents gallery"><!--contents sets the flexbox, gallery styles image+headers-->
+
+                    <div > <!--class="project"> -->
+                            <img src="Images/overSimple.JPG" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="gall-text">
+                                <h2>ScienFitness</h2>
+                                <p> Health and wellness comapny focused on educating the public</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h1>Oversimplified Tech</h1>
+                    <h2> "For returning "washday" to our lives, Hands Rosling suggest, the washing machine deserves to be called the greatest invention of the Industrial Revolution" -Stephen Pinker. <br>
+                        Early 20th century inventions such as the washing machine and refrigerators have had a profound impact on the society. These inventions allowed for us to have more times in our weeks and be able to liberate us from doing unwanted tasks. Similarily in our modern society, smart phones and applications are focusing in simplifying our daily lives to make us more productive and efficient. In summer of 2020, I cofounded a consumer electronics company named Oversimplified Tech. In the early phases of this company's developmentm, we focused on prototyping and developing different hardware based on AVR architecture. One of our first projects was creating motion sensor LED that were individally addressed using an ATMega328p.
+                    </h2>
+                </div>
+            </div>
+            </section>
+            
+            
             <section id="proj1" class="gallerysec leftgal">
                 <div class="row">
                     <div class="contents gallery"><!--contents sets the flexbox, gallery styles image+headers-->
 
-                        <div class="project">
+                        <div>
                             <img src="Images/STMI.jpg" alt="Avatar" class="image">
                             <div class="overlay">
                                 <div class="gall-text">
@@ -71,31 +96,14 @@
                             </div>
                         </div>
 
-                        <h1>Software Development and Machine learning</h1>
-                        <h2>This project was designed to be useful tool for the diabetic population. It was mainly focused on retrieveing health, motion, and glucose data from participants to implement a machine learning algorithm that notifies ths user of instances of unusually low or high blood glucose levels, and associates them to the activities they normally do to ensure the users safety. <br> I started as a Software Developer in this team. This is has been one of my favorite projects because as I started my role in this lab, I did not know how to code with Swift, and I was not a great software developer. I was however, extremely passionate about this topic and hungry to learn and be able to help in the lab so I spent hours upon hours teaching myself Swift, reading online, and debugging until I was finally able to consider myself a competant developer.</h2>
+                            <h1>CGM + Activity Context Recognition Machine Learning Algorithm</h1>
+                            <h2> Thirty milion Americans suffer from diabetes and another eighty milion are pre-diabetic. An essential component of clinical intervention for this condition is monitoring dietary intakes. In this project we focused on creating a data collection platform that integraded motion and heart activity, collected through iPhone and Apple Watch sensors, with data retrieved from a Contious Glucos Monitor (CGM). A CGM consists of a small electrode inserted under the skin to measure glucose in the interstitial fluid, and a transmitter that sends the information to a monitoring device. The main goal of this project is to develop new estimation algorithms capable of modeling the glucose response to mixed meals and estimating the meals’ macronutrient composition.
+                            </h2>
                     </div>
                 </div>
             </section>
             
-            <section id="proj1" class="gallerysec rightgal">
-                <div class="row">
-                    <div class="contents gallery"><!--contents sets the flexbox, gallery styles image+headers-->
-
-                        <div class="project">
-                            <img src="Images/ScienFitness.jpg" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="gall-text">
-                                    <h2>ScienFitness</h2>
-                                    <p> Health and wellness comapny focused on educating the public</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h1>SceinFitness</h1>
-                        <h2>During the summer of 2018, I decided to start my own company named ScienFitness. This company was inspired by my passion about health and fitness, and my recent certification in Personal Training (NASM 2017). Through ScienFitness, I was able to train more than 60 clients online over the summer while actively checking on their progress and ensuring the effectiveness of their routine. I also put out educational content on my social media daily and was able to attract a very large audience. This has been one of my favorite projects I had done before because it truly taught me how to manage a project, and how to interact with my own costumers. The company started as a tool for me to spread my knowledge to others, but ended up being an amazing learning opportunity for me. </h2>
-                    </div>
-                </div>
-            </section>
+            
             
             <section id="proj1" class="gallerysec rightgal">
                 <div class="row">

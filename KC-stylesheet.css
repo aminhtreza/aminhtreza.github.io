@@ -459,6 +459,78 @@ h5 {font-weight: bold; margin-bottom: 3px;}
     border: 1px solid black; /*May take out later */
     box-shadow: 2px 3px 4px #888888;
 }
+
+/* myApps page */
+#appsback {background-image: url(Images/develop.png)}
+.gallerysec {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+.gallerysec:hover {
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+}
+.gallerysec h1, .gallerysec h2 {margin: 0.2em auto;}
+.gallerysec h1 {font-size: 6vw; text-align: center;}
+.gallerysec h2 {font-size: 4vw; text-align: center;}
+.leftgal {background-color: white;}
+.rightgal {background-color: whitesmoke;}
+.gallery {
+    /* border: solid aquamarine; */
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.project {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap; /* MOBILE ONLY */
+    justify-content: center;
+    align-content: center;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+}
+/* Scale text inside overlay with screen aspect ratio, slides out as a cohesive unit */
+.overlay {
+    display: flex;
+    align-items: center;
+    margin: 5vw auto;
+}
+.gall-text {
+    min-width: 20vw;
+    width: 100%; /*mobile*/
+    margin: 0;
+    text-align: center;
+}
+/* Slide in from the left effect */
+.leftgal .overlay {
+    width: 100%;
+    height: 100%;
+    transition: .5s ease-in-out;
+    background-color: whitesmoke;
+}
+/* Slide in from the right effect */
+.rightgal .overlay {
+    width: 100%;
+    height: 100%;
+    transition: .5s ease-in-out;
+    background-color: white;
+}
+.rightgal .project:hover .overlay {
+    width: 50%;
+    left: 50%;
+}
+
 /* ############
    PORTFOLIO PAGE 
 ############ */
@@ -534,6 +606,7 @@ h5 {font-weight: bold; margin-bottom: 3px;}
     width: 50%;
     left: 50%;
 }
+
 
 
 /* Contact page */
