@@ -64,6 +64,7 @@ Header Section
 #imgback {
     background-image: url(Images/smilebeach.png);
 }
+
 #filter {
     height: 100vh;
     width: 100%;
@@ -610,7 +611,7 @@ h5 {font-weight: bold; margin-bottom: 3px;}
 
 
 /* Contact page */
-#contactback {background-image: url(Images/Contactme.JPG)}
+#contactback {background-image: url(Images/sandDunes.png)}
 /* ############
    ABOUT PAGE 
 ############ */
