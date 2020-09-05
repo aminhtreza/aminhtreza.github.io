@@ -8,34 +8,39 @@
 
 
 <url>
-  <loc>http://aminhamidi.com/</loc>
-  <lastmod>2020-03-08T20:01:52+00:00</lastmod>
+  <loc>https://aminhamidi.com/</loc>
+  <lastmod>2020-08-31T16:49:35+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://aminhamidi.com/index.html</loc>
-  <lastmod>2020-03-08T20:01:52+00:00</lastmod>
+  <loc>https://aminhamidi.com/index.html</loc>
+  <lastmod>2020-08-31T16:49:35+00:00</lastmod>
+  <priority>0.1</priority>
+</url>
+<url>
+  <loc>https://aminhamidi.com/resume.html</loc>
+  <lastmod>2020-08-31T16:49:35+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://aminhamidi.com/portfolio.html</loc>
+  <lastmod>2020-08-31T16:49:35+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://aminhamidi.com/myApps.html</loc>
+  <lastmod>2020-08-31T16:49:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://aminhamidi.com/resume.html</loc>
-  <lastmod>2020-03-08T20:01:52+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://aminhamidi.com/about.html</loc>
+  <lastmod>2020-08-31T16:49:35+00:00</lastmod>
+  <priority>0.50</priority>
 </url>
 <url>
-  <loc>http://aminhamidi.com/portfolio.html</loc>
-  <lastmod>2020-03-08T20:01:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://aminhamidi.com/about.html</loc>
-  <lastmod>2020-03-08T20:01:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://aminhamidi.com/contact.html</loc>
-  <lastmod>2020-03-08T20:01:52+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://aminhamidi.com/contact.html</loc>
+  <lastmod>2020-08-31T16:49:35+00:00</lastmod>
+  <priority>0.30</priority>
 </url>
 
 
