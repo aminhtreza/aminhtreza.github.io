@@ -1,102 +1,150 @@
 <!DOCTYPE html>
 <html lang="en-US">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="google-site-verification" content="PD6ltglDmD-CbK2CDMeLQSeopM4dk_XNwdO3dWY8C2M" /><!--Verify: Google Search Console-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Media Queries-->
+        <meta name="keywords" content="Amin Hamidi, Amin, Aminreza, Hamiditabar, Amean, Hamedi, Amin Hamidi Developer, Amin tamu, Amin Hamidi tamu">
+        <meta name="description" content="I love designing with SwiftUI. Check out some of my apps">
+        <title>Amin Hamidi My Apps</title>
+        <link rel="stylesheet" type="text/css" href="KC-stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Questrial|Libre+Baskerville|Montserrat|Overpass|Quicksand&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="Images/Aminlogo.png" type="image/x-icon" /><!--Favicon at the top of browser tab-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/1f156684a3.js" crossorigin="anonymous"></script>
+    </head>
+    
     <body>
-        <section id="shahnameh_background" class="intro_image">
-            <div id="filter">
-                <header id="home-head">
-                    <div id="statement">
-                        <div class="bigword">
-                            <h1>Shahnameh </h1>
-                            <h1>شاهنامه</h1>
+        
+    <section id="shahnameh_background" class="intro_image">
+        <div id="filter">
+            <header id="home-head">
+                <!--Mobile Navigation Bar-->
+                <div class="topnav mobile">
+                    <a href="index.html" class="active"><img id="mobile-icon" src="Images/Aminlogo.png"></a>
+                    <div id="myLinks">
+                    <a href="resume.html" class="button">Resume</a>
+                        <a href="portfolio.html" class="button">Projects</a>
+                    <a href="myApps.html" style="color: #ef5728;" class="button">My Apps</a>
+                    <a href="about.html" class="button">About</a>
+                    <a href="contact.html" class="button">Contact</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars fa-2x"></i>
+                    </a>
+                </div>
+                <!--Desktop Navigation Bar-->
+                <div id="navbar" class="desktop">
+                        <div id="icon-div">
+                            <!-- REMEMBER: fix the icon link to go to the home page -->
+                            <a href="index.html" id="icon-wrapper"><img id="logo" src="Images/Aminlogo.png" alt="KellanCerveny"></a>
+                        </div>
+                        <div id="nav-div">
+                            <a href="resume.html" class="button">Resume</a>
+                                <a href="portfolio.html" class="button">Projects</a>
+                            <a href="myApps.html" style="color: #ef5728;" class="button">My Apps</a>
+                            <a href="about.html" class="button">About</a>
+                        </div>
+                        <div id="contact-div">
+                            <a href="contact.html" class="button">Contact</a>
+                        </div>
+                </div>
+                <div id="statement">
+                    <div class="bigword">
+                        <h1>iOS App Portfolio</h1>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </section>
+    
+    <main>
+        
+    <section id="proj1" class="gallerysec leftgal">
+        <div class="row">
+            <div class="contents gallery"><!--contents sets the flexbox, gallery styles image+headers-->
+
+                <div>
+                    <img src="Images/ptApp.png" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="gall-text">
+                            <h2>Workout Logbook (Personal Trainer Edition</h2>
+                            <p> Context recognition Machine learning algorithm </p>
                         </div>
                     </div>
-                </header>
+                </div>
+
+                        <h1>Workout Logbook (Personal Trainer Edition)</h1>
+                    <h2>
+                        As a personal trainer, you are expected to track your clients progress and log everything they do for future reference. This helps ensure progress is being made and allows trainers to reflect on previous programs to understand their clients responses to the workouts they are programming. I integraded my knowledge from personal training and iOS development to create a virtual logbook where you can easily create specialized workout plans for multiple clients while the app automatically creates weight tracking charts and displays all of the information in an organized manner.
+                    </h2>
             </div>
+        </div>
+    </section>
+    
+    <section id="proj1" class="gallerysec rightgal">
+    <div class="row">
+        <div class="contents gallery"><!--contents sets the flexbox, gallery styles image+headers-->
+
+            <div > <!--class="project"> -->
+                        <img src="Images/brewsNreviews.png" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="gall-text">
+                        <h2>ScienFitness</h2>
+                        <p> Health and wellness comapny focused on educating the public</p>
+                    </div>
+                </div>
+            </div>
+
+            <h1>Brews and Reviews</h1>
+            <h2>
+                After turning 21, I noticed that there was a big community of beer enthusiast and I became interested in understanding how to properly taste beer. After doing some research, I found a beer flavoring chart which immediately turned me away from wanting to learn. Seriously, google it. It's horrendous. So I decided to make an app that gives you the wheel at the tip of your fingers and allows you to create a logbook of the beers you have tried to keep track of your favorites, and your least favorites.
+            </h2>
+        </div>
+    </div>
         </section>
-        <main>
+    
+    </main>
             
-            <section id="proj1" class="gallerysec leftgal">
-                <div class="row">
-                    <div class="contents gallery"><!--contents sets the flexbox, gallery styles image+headers-->
-
-                        <div>
-                            <img src="Images/ptApp.png" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="gall-text">
-                                    <h2>Workout Logbook (Personal Trainer Edition</h2>
-                                    <p> Context recognition Machine learning algorithm </p>
-                                </div>
-                            </div>
+    
+    <footer>
+            <div class="row">
+                <div class="contents">
+                        <h1>Find more about me</h1>
+                        <div id="foot-div">
+                                <a href="resume.html" class="button">Resume</a>
+                                <a href="portfolio.html" class="button">Projects</a>
+                                <a href="myApps.html" class="button">My Apps</a>
+                                <a href="about.html" class="button">About</a>
+                                <a href="contact.html" class="button"> Contact</a>
                         </div>
-
-                                <h1>Workout Logbook (Personal Trainer Edition)</h1>
-                            <h2>
-                                As a personal trainer, you are expected to track your clients progress and log everything they do for future reference. This helps ensure progress is being made and allows trainers to reflect on previous programs to understand their clients responses to the workouts they are programming. I integraded my knowledge from personal training and iOS development to create a virtual logbook where you can easily create specialized workout plans for multiple clients while the app automatically creates weight tracking charts and displays all of the information in an organized manner.
-                            </h2>
-                    </div>
-                </div>
-            </section>
-        
-            <section id="proj1" class="gallerysec rightgal">
-                <div class="row">
-                    <div class="contents gallery"><!--contents sets the flexbox, gallery styles image+headers-->
-
-                        <div > <!--class="project"> -->
-                                    <img src="Images/brewsNreviews.png" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="gall-text">
-                                    <h2>ScienFitness</h2>
-                                    <p> Health and wellness comapny focused on educating the public</p>
-                                </div>
-                            </div>
+                        <p id="soc-intro">Find me hanging around the internet</p>
+                        <!-- Later will include icons to each platform, will need to use a flexbox -->
+                        <div id="socials">
+                            <a href="https://github.com/aminhtreza"><i class="fab fa-github fa-2x"></i></a>
+                            <a href="https://www.instagram.com/amin.ht/"><i class="fab fa-instagram fa-2x"></i></a>
+                            <a href="https://twitter.com/aminreza3000"><i class="fab fa-twitter fa-2x"></i></a>
+                            <a href="https://www.facebook.com/amin.rezaa"><i class="fab fa-facebook-f fa-2x"></i></a>
                         </div>
-
-                        <h1>Brews and Reviews</h1>
-                        <h2>
-                            After turning 21, I noticed that there was a big community of beer enthusiast and I became interested in understanding how to properly taste beer. After doing some research, I found a beer flavoring chart which immediately turned me away from wanting to learn. Seriously, google it. It's horrendous. So I decided to make an app that gives you the wheel at the tip of your fingers and allows you to create a logbook of the beers you have tried to keep track of your favorites, and your least favorites.
-                        </h2>
-                    </div>
+                        <!-- a href="http://batsbetter.com/index.html">Remember to fix Bruce's Website</a -->
+                        <a id="bumble" href="index.html"><img src="Images/Aminlogo.png" alt="KC Logo" style="height:2em;"></a>
+                        <h5>© 2020 Amin Hamidi. All rights reserved. <a href="sitemap.xml">Sitemap</a></h5>
                 </div>
-            </section>
-        
-        </main>
-                
-        
-        <footer>
-                <div class="row">
-                    <div class="contents">
-                            <h1>Find more about me</h1>
-                            <div id="foot-div">
-                                    <a href="resume.html" class="button">Resume</a>
-                                    <a href="portfolio.html" class="button">Projects</a>
-                                    <a href="myApps.html" class="button">My Apps</a>
-                                    <a href="about.html" class="button">About</a>
-                                    <a href="contact.html" class="button"> Contact</a>
-                            </div>
-                            <p id="soc-intro">Find me hanging around the internet</p>
-                            <!-- Later will include icons to each platform, will need to use a flexbox -->
-                            <div id="socials">
-                                <a href="https://github.com/aminhtreza"><i class="fab fa-github fa-2x"></i></a>
-                                <a href="https://www.instagram.com/amin.ht/"><i class="fab fa-instagram fa-2x"></i></a>
-                                <a href="https://twitter.com/aminreza3000"><i class="fab fa-twitter fa-2x"></i></a>
-                                <a href="https://www.facebook.com/amin.rezaa"><i class="fab fa-facebook-f fa-2x"></i></a>
-                            </div>
-                            <!-- a href="http://batsbetter.com/index.html">Remember to fix Bruce's Website</a -->
-                            <a id="bumble" href="index.html"><img src="Images/Aminlogo.png" alt="KC Logo" style="height:2em;"></a>
-                            <h5>© 2020 Amin Hamidi. All rights reserved. <a href="sitemap.xml">Sitemap</a></h5>
-                    </div>
-                </div>
-            </footer>
-        
-        <script>
-            function myFunction() {
-                var x = document.getElementById("myLinks");
-                if (x.style.display === "block") {
-                    x.style.display = "none";
-                } else {
-                    x.style.display = "block";
-                }
+            </div>
+        </footer>
+    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
             }
-        </script>
+        }
+    </script>
+        
     </body>
+    
+    
 </html>
