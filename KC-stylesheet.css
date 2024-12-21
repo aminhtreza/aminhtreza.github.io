@@ -195,6 +195,7 @@ Page Header Statement
     width: 85%;
     margin-bottom: 10em;
 }
+
 .bigword h1 {
     float: left;
     margin: 0;
@@ -611,6 +612,8 @@ h5 {font-weight: bold; margin-bottom: 3px;}
 
 
 #shahnameh_background {background-image: url(Shahnameh/Shahnameh.png)}
+#amin_main {background-image: url(Images/amin_main.png)}
+
 
 /* Contact page */
 #contactback {background-image: url(Images/sandDunes.png)}
