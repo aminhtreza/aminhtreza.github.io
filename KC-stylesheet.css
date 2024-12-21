@@ -611,10 +611,17 @@ h5 {font-weight: bold; margin-bottom: 3px;}
 
 
 
-#shahnameh_background {background-image: url(Shahnameh/Shahnameh.png)}
+#shahnamehbak {background-image: url(Images/Shahnameh.png)}
 #amin_main {background-image: url(Images/amin_main.png)}
 #yaldabak {background-image: url(Images/yalda.png)}
 #hafezbak {background-image: url(Images/hafez.png)}
+#rumibak {background-image: url(Images/rumi.png)}
+
+#tommy1 {background-image: url(Images/Tommy/tommy1.png)}
+#tommy2 {background-image: url(Images/Tommy/tommy2.png)}
+#tommy3 {background-image: url(Images/Tommy/tommy3.png)}
+#tommy4 {background-image: url(Images/Tommy/tommy4.png)}
+#tommy5 {background-image: url(Images/Tommy/tommy5.png)}
 
 
 
