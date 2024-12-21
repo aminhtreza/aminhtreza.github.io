@@ -630,10 +630,12 @@ h5 {font-weight: bold; margin-bottom: 3px;}
 #asb {background-image: url(Images/asb.png)}
 #bizhan {background-image: url(Images/bizhan.png)}
 #manizhe {background-image: url(Images/manizhe.png)}
-#headshot {background-image: url(Images/headshot.png)}
 
 #hafez1 {background-image: url(Images/hafez1.png)}
 #hafez2 {background-image: url(Images/hafez2.png)}
+
+#yaldahoodie {background-image: url(Images/yaldahoodie.png)}
+
 
 
 
@@ -746,6 +748,8 @@ input:-webkit-autofill {border:1px solid; -webkit-box-shadow: 0 0 0 30px white i
         display: flex; 
         height: 100vh;
     }
+
+    
     .container h1 {
         font-size: 5vw;
     }
