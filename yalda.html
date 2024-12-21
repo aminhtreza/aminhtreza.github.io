@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <style>
+        .title {
+            position: absolute;
+            top:50%;
+            left: 0;
+            margin-left: 1rem;
+            font-family: 'Noto Nastaliq Urdu', sans-serif;
+            color: #FFFFFF; /* Use black for visibility */
+            font-size: 10vh; /* Scale with viewport height so it's large and visible */
+            direction: rtl;
+            z-index: 9999;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Add some contrast for visibility */
+        }
+        .title2 {
+            position: absolute;
+            top: 75%;
+            left: 0;
+            margin-left: 1rem;
+            font-family: 'Times New Roman', sans-serif;
+            color: #FFFFFF; /* Use black for visibility */
+            font-size: 3vh; /* Scale with viewport height so it's large and visible */
+            direction: rtl;
+            z-index: 9999;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Add some contrast for visibility */
+        }
+    </style>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="google-site-verification" content="PD6ltglDmD-CbK2CDMeLQSeopM4dk_XNwdO3dWY8C2M" /><!--Verify: Google Search Console-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Media Queries-->
+        <meta name="keywords" content="Amin Hamidi, Amin, Aminreza, Hamiditabar, Amean, Hamedi, Amin Hamidi Developer, Amin tamu, Amin Hamidi tamu">
+        <meta name="description" content="Amin Hamidi. Electrical Engineering Student at Texas A&M Universtiy. Software Developer, Personal Trainer, and Entrepreneur">
+        <title>Amin Hamidi</title>
+        <link rel="canonical" href="https://aminhamidi.com/index.html"/>
+        <link rel="stylesheet" type="text/css" href="KC-stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Questrial|Libre+Baskerville|Montserrat|Overpass|Quicksand&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="Images/Aminlogo.png" type="image/x-icon" /><!--Favicon at the top of browser tab-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/1f156684a3.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <section id="yaldabak" class="intro_image">
+            <div class="image-section">
+                <div class="title">شب یلدا</div>
+                <div class="title2">Yalda night</div>
+            </div>
+        </section>
+
+        <!-- Beginning of Main Body content -->
+                        
+            <section id="idoit">
+                <div class="row">
+                    <div class="contents">
+                        <h1>A bit about my skillset</h1>
+                        <div class="threecol">
+                            <div>
+                                <h2>iOS Development</h2>
+                                <p>Working as a software developer for a machine learning research lab at Texas A&M University. Building iOS and watchOS applications to collect, and process data.</p>
+                            </div>
+                            <div>
+                                <h2>Design</h2>
+                                <p>Digital design projects including graphic design, front end development, and video making. Check out some of my video projects under my projects.</p>
+                            </div>
+                            <div>
+                                <h2>Teaching</h2>
+                                <p>I have worked as a personal trainer since the beginning of college, and have taught at meetings, and a fitness conference before.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+        </main>
+        <footer>
+            <div class="row">
+                <div class="contents">
+                        <h1>Why not follow me on Instagram?</h1>
+                        <p id="soc-intro">You know you want to</p>
+                        <!-- Later will include icons to each platform, will need to use a flexbox -->
+                        <div id="socials">
+                            <a href="https://www.instagram.com/knowhataamin/"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                        <h5>© 2020 Amin Hamidi. All rights reserved. <a href="sitemap.xml">Sitemap</a></h5>                        
+                </div>
+            </div>
+        </footer>
+    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+    <!--JavaScript Typing Animation Script-->
+    <script>
+        const TypingText = document.querySelector(".typed-text");
+        const AutoTyping = document.querySelector(".TypeCursor");
+        
+        const textArray = ["Serial chiller", "Lift heavy", "Eat good", "We'll be right back"];
+        const typingDelay = 200;
+        const erasingDelay = 100;
+        const newTextDelay = 2000; 
+        let textArrayIndex = 0;
+        let charIndex = 0;
+        
+        function type() {
+        if (charIndex < textArray[textArrayIndex].length) {
+            if(!AutoTyping.classList.contains("typing")) AutoTyping.classList.add("typing");
+            TypingText.textContent += textArray[textArrayIndex].charAt(charIndex);
+            charIndex++;
+            setTimeout(type, typingDelay);
+        } 
+        else {
+            AutoTyping.classList.remove("typing");
+            setTimeout(erase, newTextDelay);
+        }
+        }
+        
+        function erase() {
+            if (charIndex > 0) {
+            if(!AutoTyping.classList.contains("typing")) AutoTyping.classList.add("typing");
+            TypingText.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+            charIndex--;
+            setTimeout(erase, erasingDelay);
+        } 
+        else {
+            AutoTyping.classList.remove("typing");
+            textArrayIndex++;
+            if(textArrayIndex>=textArray.length) textArrayIndex=0;
+            setTimeout(type, typingDelay + 1100);
+        }
+        }
+        
+        document.addEventListener("DOMContentLoaded", function() { 
+        if(textArray.length) setTimeout(type, newTextDelay + 250);
+        });
+    </script>
+    </body>
+</html>
